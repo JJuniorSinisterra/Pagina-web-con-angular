@@ -1,0 +1,48 @@
+<div class="col-md-6 ">
+  <div class="card">
+    <div class="text-center">
+        <h1>Registrarme</h1>
+    </div>
+
+        <div class="mb-3">
+          <label  class="form-label">Nombre</label>
+          <input type="name" class="form-control" aria-describedby="name">
+        </div>
+        <div class="mb-3">
+          <label  class="form-label">Usuario</label>
+          <input type="users" class="form-control" aria-describedby="user">
+        </div>
+        <div class="mb-3">
+          <label  class="form-label">Correo Electronico</label>
+          <input type="email" class="form-control" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label  class="form-label">Contraseña</label>
+          <input type="password" class="form-control">
+        </div>
+        <div class="my-3">
+          <span>Ya tengo cuenta <a href="" [routerLink]="['/login']" routerLinkActive="router-link-active" >Iniciar sesion</a></span> <br>
+        </div>
+        <button  Htype="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Registrarme</button>
+
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Información</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Su registro se realizo correctamente
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>

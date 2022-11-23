@@ -1,0 +1,22 @@
+<div class="col-md-6 ">
+        <div class="card">
+          <div class="text-center">
+              <h1>Iniciar Sesion</h1>
+          </div>
+              <div class="mb-3">
+                <label  class="form-label">Correo Electronico</label>
+                <input type="email" class="form-control" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label  class="form-label">Contraseña</label>
+                <input type="password" class="form-control">
+              </div>
+              <div class="my-3">
+                <span>No tiene cuenta? <a  [routerLink]="['/registro']" routerLinkActive="router-link-active" >Registrarme</a></span> <br>
+                <span><a [routerLink]="['/recuperar']" >Recuperar contraseña</a></span>
+              </div>
+              <button type="submit" class="btn btn-primary">Ingresar</button>
+
+        </div>
+</div>
+

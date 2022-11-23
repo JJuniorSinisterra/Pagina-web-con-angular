@@ -1,0 +1,10 @@
+.card {
+  margin-top: 10px;
+  border: none;
+  width: 500px;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background: linear-gradient(90deg, hsl(205deg, 46%, 30%) 0%, hsl(260deg, 29%, 36%) 100%);
+}/*# sourceMappingURL=login.component.css.map */

@@ -1,0 +1,13 @@
+.principal {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.principal .image {
+  flex: 1 1 45rem;
+  width: 100%;
+}
+.principal .image .content {
+  flex: 1 1 42rem;
+}/*# sourceMappingURL=home.component.css.map */
